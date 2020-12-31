@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 87.0.4280.88,,,2020-12-31 20:08:53,2020-12-31 20:09:03,"9,284s",PASSED
+,,,,,,,
+Test Cases/Test Case 1,Chrome 87.0.4280.88,,,2020-12-31 20:08:54,2020-12-31 20:09:03,"9,007s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-31 20:08:54,2020-12-31 20:08:58,"3,963s",PASSED
+"navigateToUrl(""https://g1.gangsters.pl/rejestracja.html"")",Chrome 87.0.4280.88,,,2020-12-31 20:08:58,2020-12-31 20:08:59,"0,604s",PASSED
+"setText(findTestObject(""nick""), nick)",Chrome 87.0.4280.88,,,2020-12-31 20:08:59,2020-12-31 20:08:59,"0,702s",PASSED
+"setEncryptedText(findTestObject(""haslo""), haslo)",Chrome 87.0.4280.88,,,2020-12-31 20:08:59,2020-12-31 20:09:00,"0,373s",PASSED
+"reje_el = getText(findTestObject(""reje""))",Chrome 87.0.4280.88,,,2020-12-31 20:09:00,2020-12-31 20:09:00,"0,290s",PASSED
+assert reje == reje_el,Chrome 87.0.4280.88,,,2020-12-31 20:09:00,2020-12-31 20:09:00,"0,002s",PASSED
+"setEncryptedText(findTestObject(""haslo_2""), haslo2)",Chrome 87.0.4280.88,,,2020-12-31 20:09:00,2020-12-31 20:09:00,"0,324s",PASSED
+"setText(findTestObject(""mail""), mail)",Chrome 87.0.4280.88,,,2020-12-31 20:09:00,2020-12-31 20:09:01,"0,551s",PASSED
+"setText(findTestObject(""mail_2""), mail_2)",Chrome 87.0.4280.88,,,2020-12-31 20:09:01,2020-12-31 20:09:01,"0,548s",PASSED
+"click(findTestObject(""avatar""))",Chrome 87.0.4280.88,,,2020-12-31 20:09:01,2020-12-31 20:09:02,"0,602s",PASSED
+"click(findTestObject(""regulamin""))",Chrome 87.0.4280.88,,,2020-12-31 20:09:02,2020-12-31 20:09:02,"0,294s",PASSED
+"click(findTestObject(""rejestracja""))",Chrome 87.0.4280.88,,,2020-12-31 20:09:02,2020-12-31 20:09:03,"0,503s",PASSED
